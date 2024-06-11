@@ -28,9 +28,7 @@ body {
     text-align: center;
     padding-top: 3%;
     padding-bottom: 2%;
-    /* top: 0%; */
     width: 100%; 
-    /* background-color: red;  */
     border-radius: 5px; 
 }
 
@@ -155,10 +153,6 @@ body {
     text-align: center;
     text-decoration: none;
 }
-
-/* .back_button:hover {
-    filter: brightness(1.5);
-} */
 
 @media (max-width: 768px) {
     .header {
