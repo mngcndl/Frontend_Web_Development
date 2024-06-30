@@ -8,18 +8,17 @@ body {
     position: relative;
 }
 
-  .palanquin-extralight {
-    font-family: "Palanquin", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .palanquin-regular {
-    font-family: "Palanquin", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+.palanquin-extralight {
+font-family: "Palanquin", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.palanquin-regular {
+font-family: "Palanquin", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 
 .name_header {
     font-family: 'Montserrat', 'consolas';
@@ -102,7 +101,7 @@ body {
     border-radius: 7px;
 }
 
-.contacts_header{
+.contacts_header {
     font-family: 'Montserrat', 'consolas';
     font-weight: 400;
     padding-top: 2%;
@@ -119,6 +118,41 @@ body {
 .icon {
     width: 20px;
     height: 20px;
+}
+
+.comic_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.comic_header {
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.comic_content img {
+    max-width: 80%;
+    height: auto;
+}
+
+.comic_content {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 200;
+}
+
+.contacts_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacts_header {
+    font-size: 1.5em;
 }
 
 .telegram_button:hover, .email_button:hover, .github_button, .inst_button:hover {

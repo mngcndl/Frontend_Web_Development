@@ -1,0 +1,238 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.palanquin-extralight {
+font-family: "Palanquin", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.palanquin-regular {
+font-family: "Palanquin", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.name_header {
+    font-family: 'Montserrat', 'consolas';
+    font-weight: normal;
+    font-size: 230%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 100%; 
+    border-radius: 5px; 
+}
+
+.bio_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bio_paragraph {
+    font-family: 'Palanquin', 'consolas';
+    font-weight: 200;
+    flex-shrink: 1.5;
+    left: 3%;
+    padding-top: 3%;
+    border-radius: 7px;
+}
+
+.profile_img {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    border-radius: 10%;
+}
+
+.projects_container {
+    justify-content: flex-start;
+    border-radius: 7px;
+}
+
+.projects_header {
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 400;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.projects_list {
+    font-family: 'Palanquin', 'consolas';
+    font-weight: 200;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    max-width: 25%;
+    text-align: left;
+}
+
+.skills_container {
+    justify-content: flex-start;
+    border-radius: 7px;
+}
+
+.skills_header {
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.skills_list {
+    font-family: 'Palanquin', 'consolas';
+    font-weight: 200;
+    margin: 0 auto;
+    max-width: 15%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.contacts_container {
+    text-align: center;
+    border-radius: 7px;
+}
+
+.contacts_header {
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 400;
+    padding-top: 2%;
+    margin-bottom: 10px;
+}
+
+.telegram_button, .email_button, .inst_button {
+    display: inline-block;
+    margin: 0 6px;
+    text-decoration: none;
+    padding-bottom: 7%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.comic_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.comic_header {
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.comic_content img {
+    max-width: 80%;
+    height: auto;
+}
+
+.comic_content {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', 'consolas';
+    font-weight: 200;
+}
+
+.contacts_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacts_header {
+    font-size: 1.5em;
+}
+
+.telegram_button:hover, .email_button:hover, .github_button, .inst_button:hover {
+    filter: brightness(1.5);
+}
+
+.text_header {
+    font-family: 'Palanquin', 'consolas';
+    font-weight: 400;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.tg_qr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.link_text {
+    display: block;
+    font-family: 'Palanquin', 'consolas';
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.back_button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        order: 1;
+    }
+
+    .profile_img {
+        width: 50%;
+        height: auto;
+        order: 2;
+    }
+
+    .bio_paragraph {
+        width: 90%;
+        text-align: center;
+        order: 3;
+    }
+
+    .projects_container {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .projects_list {
+        font-family: 'Palanquin', 'consolas';
+        font-weight: 200;
+        padding-bottom: 5%;
+        margin: 0 auto;
+        max-width: 50%;
+        text-align: left;
+    }
+
+    .skills_container {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .skills_list {
+        font-family: 'Palanquin', 'consolas';
+        font-weight: 200;
+        padding-bottom: 5%;
+        margin: 0 auto;
+        max-width: 30%;
+        text-align: left;
+    }
+}
+
